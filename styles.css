@@ -87,12 +87,12 @@ img {
 }
 
 .container {
-  width: min(92%, var(--max-width));
+  width: min(92vw, var(--max-width));
   margin: 0 auto;
 }
 
 .container.narrow {
-  width: min(86%, var(--max-width-narrow));
+  width: min(88vw, var(--max-width-narrow));
 }
 
 .sr-only {
