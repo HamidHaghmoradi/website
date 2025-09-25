@@ -1141,6 +1141,20 @@ body[data-theme="dark"] .footer-nav a:focus {
     padding: 2rem;
   }
 
+  .story {
+    padding: 3.2rem 0;
+  }
+
+  .lab-highlight {
+    gap: 1.5rem;
+  }
+
+  .project-card,
+  .excellence-card,
+  .publication-card {
+    padding: 1.5rem;
+  }
+
   .contact-grid {
     gap: 0.75rem;
   }
@@ -1180,6 +1194,63 @@ body[data-theme="dark"] .footer-nav a:focus {
     padding-top: 3.2rem;
   }
 
+  .hero-inner {
+    gap: 2.2rem;
+  }
+
+  .hero-copy {
+    text-align: center;
+    align-items: center;
+    gap: 1.4rem;
+  }
+
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .stats {
+    width: 100%;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .stat {
+    align-items: center;
+    text-align: center;
+  }
+
+  .story .container,
+  .story .container.narrow {
+    text-align: center;
+  }
+
+  .lab-copy {
+    grid-column: span 12;
+    text-align: center;
+    align-items: center;
+  }
+
+  .lab-media {
+    grid-column: span 12;
+  }
+
+  .focus-card,
+  .project-card,
+  .excellence-card,
+  .publication-card {
+    padding: 1.35rem;
+  }
+
+  .project-media {
+    margin: -1rem -1rem 0;
+  }
+
   .collaborate-inner {
     grid-template-columns: 1fr;
   }
@@ -1195,6 +1266,23 @@ body[data-theme="dark"] .footer-nav a:focus {
   .contact-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .contact-actions .button {
+    width: 100%;
+  }
+
+  .contact-intro {
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .contact-grid {
+    gap: 0.65rem;
+  }
+
+  .contact-item {
+    padding: 1rem 1.1rem;
   }
 
   .theme-toggle {
