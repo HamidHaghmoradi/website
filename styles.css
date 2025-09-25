@@ -192,6 +192,13 @@ blockquote {
   box-shadow: inset 0 0 0 1px var(--icon-ring);
   padding: 0.35rem;
   background: var(--surface);
+  transition: background var(--transition), box-shadow var(--transition), filter var(--transition);
+}
+
+body[data-theme="dark"] .brand-mark {
+  filter: brightness(0) invert(1);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
 }
 
 .brand-name {
@@ -286,6 +293,13 @@ body[data-theme="dark"] .theme-toggle-icon::before {
   padding: 4.5rem 0 3.5rem;
 }
 
+body[data-theme="dark"] .hero {
+  background: radial-gradient(circle at 20% -10%, rgba(103, 153, 255, 0.18), transparent 55%),
+    radial-gradient(circle at 100% 0%, rgba(66, 110, 255, 0.16), transparent 60%),
+    var(--surface);
+  border-bottom: 1px solid rgba(132, 169, 255, 0.18);
+}
+
 .hero-inner {
   display: grid;
   gap: 3rem;
@@ -306,10 +320,18 @@ body[data-theme="dark"] .theme-toggle-icon::before {
   color: var(--text-muted);
 }
 
+body[data-theme="dark"] .role {
+  color: rgba(174, 198, 255, 0.92);
+}
+
 .quote {
   font-size: 1rem;
   font-style: italic;
   color: var(--text-soft);
+}
+
+body[data-theme="dark"] .quote {
+  color: rgba(204, 214, 255, 0.9);
 }
 
 .stats {
@@ -329,11 +351,19 @@ body[data-theme="dark"] .theme-toggle-icon::before {
   color: var(--accent);
 }
 
+body[data-theme="dark"] .stat-value {
+  color: var(--accent-strong);
+}
+
 .stat-label {
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-muted);
+}
+
+body[data-theme="dark"] .stat-label {
+  color: rgba(175, 194, 240, 0.78);
 }
 
 .hero-actions {
