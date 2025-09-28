@@ -654,6 +654,51 @@ body[data-theme="dark"] .quote-block cite {
   gap: 1.2rem;
 }
 
+.research-brief {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.research-figure {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.research-figure img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.research-figure figcaption {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.research-abstract {
+  color: var(--text-soft);
+}
+
+body[data-theme="dark"] .research-abstract {
+  color: rgba(209, 218, 255, 0.88);
+}
+
+.research-reference {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+body[data-theme="dark"] .research-reference {
+  color: rgba(170, 188, 238, 0.78);
+}
+
+.research-reference a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .latest-highlights {
   margin: 0;
   padding-left: 1.2rem;
