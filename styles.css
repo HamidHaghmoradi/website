@@ -657,16 +657,7 @@ body[data-theme="dark"] .quote-block cite {
 .research-brief {
   display: grid;
   gap: 1.6rem;
-}
-
-.research-brief + .publication-card {
-  margin-top: 1.8rem;
-}
-
-@media (max-width: 640px) {
-  .research-brief + .publication-card {
-    margin-top: 1.4rem;
-  }
+  margin-bottom: 2.4rem;
 }
 
 .research-figure {
