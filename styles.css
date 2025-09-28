@@ -875,13 +875,7 @@ body[data-theme="dark"] .latest-highlights li::before {
 }
 
 .research-brief + .publication-card {
-  margin-top: 2.8rem;
-}
-
-@media (max-width: 640px) {
-  .research-brief + .publication-card {
-    margin-top: 2rem;
-  }
+  margin-top: 1.2rem;
 }
 
 .recent-list {
