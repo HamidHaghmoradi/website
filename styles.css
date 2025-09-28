@@ -868,6 +868,22 @@ body[data-theme="dark"] .latest-highlights li::before {
   justify-self: start;
 }
 
+.research-brief {
+  display: grid;
+  gap: 1.6rem;
+  margin-bottom: 0;
+}
+
+.research-brief + .publication-card {
+  margin-top: 2.8rem;
+}
+
+@media (max-width: 640px) {
+  .research-brief + .publication-card {
+    margin-top: 2rem;
+  }
+}
+
 .recent-list {
   margin-top: 1.8rem;
   display: grid;
