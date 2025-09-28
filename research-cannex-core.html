@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seismically Isolated Core | CANNEX Research Brief</title>
+  <meta name="description" content="Detailed description of the CANNEX plane-parallel force metrology core, including sensing architecture, thermal management, and seismic attenuation strategies." />
+  <link rel="icon" type="image/svg+xml" href="file.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light" class="archive">
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html#top">
+        <img src="file.svg" alt="Hamid Haghmoradi monogram" class="brand-mark" />
+        <span class="brand-name">Hamid Haghmoradi</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#research">Research</a></li>
+          <li><a href="index.html#projects">Insights</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="research.html" aria-current="page">Research Archive</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span class="sr-only">Toggle dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="detail-hero">
+      <div class="container detail-hero-inner">
+        <div class="detail-copy">
+          <p class="eyebrow">Research Brief</p>
+          <h1>Seismically Isolated Core for Plane-Parallel Force Metrology</h1>
+          <p class="section-lead">Inside the CANNEX instrument, a thermally regulated plane-parallel cavity is suspended on a six-axis seismic attenuation stack to probe Casimir and screened dark-sector interactions with unprecedented stability.<sup><a href="#ref1">[1]</a></sup></p>
+          <div class="detail-nav">
+            <a class="button primary" href="https://doi.org/10.3390/physics6020045" target="_blank" rel="noopener">Read the Physics 2024 paper</a>
+            <a class="button secondary" href="research.html">Back to archive</a>
+          </div>
+        </div>
+        <figure class="detail-figure">
+          <img src="design.svg" alt="Cutaway illustration of the CANNEX core and seismic attenuation stack" loading="lazy" />
+          <figcaption>Design study of the 1.8 m CANNEX core: the silica reference plate, silicon sensor, ion-cleaning ports, thermal shrouds, and inverted pendulum/geometric anti-spring seismic attenuation system.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="detail-body">
+      <div class="container narrow detail-grid">
+        <article class="detail-section" id="architecture">
+          <h3>Instrument Architecture</h3>
+          <p>The CANNEX platform nests a silica reference plate beneath a silicon single-crystal force sensor inside a 1.8 m ultra-high-vacuum stack. Three 200 µm-range piezo translators trim plate parallelism and separation while fiber-coupled interferometers and an optical cavity deliver sub-nanometer readout over the 1 cm<sup>2</sup> aperture.<sup><a href="#ref1">[1]</a></sup> The sensor and shroud assembly rides on a drift-free stick-slip positioning cage that supports both interfacial and shielded Cavendish configurations, maximizing plane-parallel overlap for interfacial, gravitation-like, and screened forces.</p>
+        </article>
+
+        <article class="detail-section" id="sensing">
+          <h3>Sensor Stack and Readout</h3>
+          <p>Optical fibers polished flush with the lower plate rim provide three-beam interferometric control of tilt and cavity length, while a central fiber interrogates the silicon sensor displacement. An automated stick-slip micropositioner maintains micron-scale cavity tuning, and interferometer data stream into Kalman-filtered state observers to stabilise the sensor bias over long integration times.<sup><a href="#ref1">[1]</a>, <a href="#ref4">[4]</a></sup></p>
+        </article>
+
+        <article class="detail-section" id="thermal-vacuum">
+          <h3>Thermal and Vacuum Architecture</h3>
+          <p>The inner core operates at &lt;10<sup>−9</sup> mbar using an ion-getter pump while guided copper heat exchangers route waste heat to the outer chamber without adding mechanical coupling. Non-contact thermal shrouds and Peltier stages hold gradients below the microkelvin level, whereas UV/argon ion cleaning ports mitigate electrostatic patches before each run.<sup><a href="#ref1">[1]</a>, <a href="#ref2">[2]</a></sup></p>
+        </article>
+
+        <article class="detail-section" id="seismic">
+          <h3>Seismic Attenuation System</h3>
+          <p>The suspended core couples to an external isolation stack combining an inverted pendulum (horizontal), a geometric anti-spring (vertical), and a tuned mass tower (tilt) to suppress ground motion below 100 mHz.<sup><a href="#ref1">[1]</a>, <a href="#ref3">[3]</a></sup> Magic-wand extensions on the GAS blades further damp residual resonances, while co-located geophones and linear variable differential transformers feed a real-time observer loop that maintains micro-radian alignment.<sup><a href="#ref4">[4]</a></sup></p>
+        </article>
+
+        <article class="detail-section" id="operations">
+          <h3>Operating Configurations and Calibration</h3>
+          <p>Three operating modes address complementary systematics. The interfacial configuration maximizes plate overlap for Casimir and short-range gravity searches; the Cavendish configuration introduces a gold-coated electrostatic shield for differential gravity-like measurements; and a Kelvin probe mode characterises surface work-function patches across each plate to constrain electrostatic backgrounds.<sup><a href="#ref1">[1]</a>, <a href="#ref2">[2]</a></sup></p>
+        </article>
+
+        <article class="detail-section" id="science">
+          <h3>Science Program and Outlook</h3>
+          <p>With its stabilized plane-parallel cavity, CANNEX targets thermal Casimir physics beyond the proximity-force approximation, tests screened chameleon and dilaton fields, and constrains environment-dependent scalar interactions over tens of microns.<sup><a href="#ref1">[1]</a>, <a href="#ref5">[5]</a>, <a href="#ref7">[7]</a></sup> The isolation stack and modular vacuum design also provide a platform for future upgrades, including cryogenic operation and resonant sensing campaigns proposed in the collaboration roadmap.<sup><a href="#ref6">[6]</a></sup></p>
+        </article>
+
+        <section class="detail-section" id="references">
+          <h3>Key References</h3>
+          <ol class="detail-references">
+            <li id="ref1">H. Haghmoradi et al., “Force Metrology with Plane Parallel Plates: Final Design Review and Outlook,” <em>Physics</em> <strong>6</strong>, 45 (2024). <a href="https://doi.org/10.3390/physics6020045" target="_blank" rel="noopener">https://doi.org/10.3390/physics6020045</a>.</li>
+            <li id="ref2">W.J. Kim et al., “Surface Contact Potential Patches and Casimir Force Measurements,” <em>Phys. Rev. A</em> <strong>81</strong>, 022505 (2010). <a href="https://doi.org/10.1103/PhysRevA.81.022505" target="_blank" rel="noopener">https://doi.org/10.1103/PhysRevA.81.022505</a>.</li>
+            <li id="ref3">A. Stochino et al., “Improvement of the Seismic Noise Attenuation Performance of the Monolithic Geometric Anti-Spring Filters for Gravitational Wave Interferometric Detectors,” <em>Nucl. Instrum. Meth. A</em> <strong>580</strong>, 1559–1564 (2007). <a href="https://doi.org/10.1016/j.nima.2007.05.210" target="_blank" rel="noopener">https://doi.org/10.1016/j.nima.2007.05.210</a>.</li>
+            <li id="ref4">M.G. Beker et al., “State Observers and Kalman Filtering for High Performance Vibration Isolation Systems,” <em>Rev. Sci. Instrum.</em> <strong>85</strong>, 034501 (2014). <a href="https://doi.org/10.1063/1.4868485" target="_blank" rel="noopener">https://doi.org/10.1063/1.4868485</a>.</li>
+            <li id="ref5">R.I.P. Sedmik, “Casimir and Non-Newtonian Force Experiment (CANNEX): Review, Status, and Outlook,” <em>Int. J. Mod. Phys. A</em> <strong>35</strong>, 2040008 (2020). <a href="https://doi.org/10.1142/S0217751X20400088" target="_blank" rel="noopener">https://doi.org/10.1142/S0217751X20400088</a>.</li>
+            <li id="ref6">R.I.P. Sedmik et al., “Status Report and First Light from CANNEX: Casimir Force Measurements between Flat Parallel Plates,” <em>Universe</em> <strong>7</strong>, 234 (2021). <a href="https://doi.org/10.3390/universe7070234" target="_blank" rel="noopener">https://doi.org/10.3390/universe7070234</a>.</li>
+            <li id="ref7">P. Brax et al., “Tuning the Mass of Chameleon Fields in Casimir Force Experiments,” <em>Phys. Rev. Lett.</em> <strong>104</strong>, 241101 (2010). <a href="https://doi.org/10.1103/PhysRevLett.104.241101" target="_blank" rel="noopener">https://doi.org/10.1103/PhysRevLett.104.241101</a>.</li>
+          </ol>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-mark">Haghmoradi</span>
+        <p>“Science is not only compatible with spirituality; it is a profound source of spirituality.” — Carl Sagan</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#projects">Insights</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-meta">
+      <p>© <span id="year"></span> Haghmoradi. All rights reserved.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
